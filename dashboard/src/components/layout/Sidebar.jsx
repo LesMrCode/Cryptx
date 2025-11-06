@@ -5,7 +5,7 @@ import Logo from "../../assets/logo.png";
 
 export default function Sidebar() {
     const [active, setActive] = useState('overview');
-    
+    {/* sidebar items */}
   const navItems = [
     { id: "overview", icon: LayoutGrid, label: "Overview" },
     { id: "chart", icon: ChartPie, label: "Chart" },

@@ -3,7 +3,7 @@ import React from 'react';
 export default function Header() {
 	return (
 		 <header className="flex items-center justify-between h-16 px-8 border-b border-gray-200 bg-white">
-  {/* Left: Search bar */}
+  {/* Search bar */}
   <div className="flex-1 max-w-lg">
     <div className="relative">
       <svg
@@ -25,7 +25,7 @@ export default function Header() {
     </div>
   </div>
 
-  {/* Right: Notifications + Profile */}
+  {/*  Notifications & Profile */}
   <div className="flex items-center gap-5">
     {/* Notifications */}
     <button
