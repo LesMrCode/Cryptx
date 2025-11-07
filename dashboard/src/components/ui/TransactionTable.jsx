@@ -1,9 +1,15 @@
 import React from "react";
+import Live from "../../assets/Live Market.png";
+import Transaction from "../../assets/Transaction.png";
 
 export default function TransactionTable() {
 	return (
 		<div className="p-4">
-			<div className="bg-white rounded shadow p-4">Transactions</div>
+		<img src={Live} alt="Live Market" className="w-full h-auto object-contain group-hover:scale-110 transition-all"/>
+        
+        <img src={Transaction} alt="Transaction" className="w-full h-auto object-contain group-hover:scale-110 transition-all"/>
 		</div>
+
+       
 	)
 }
