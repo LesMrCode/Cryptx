@@ -14,8 +14,7 @@ const priceData = [
     change: "+0.25%",
     isPositive: true,
     bgColor: "bg-yellow-400",
-    image: Bitcoin,
-
+    image: Bitcoin, 
   },
   {
     id: 2,
