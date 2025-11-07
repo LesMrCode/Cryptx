@@ -52,9 +52,9 @@ const priceData = [
 
 export default function MetricCards() {
     return (
-    <>
+    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
       {priceData.map((card) => (
-        <div key={card.id} className="bg-white rounded-xl p-4 shadow-sm border border-border">
+        <div key={card.id} className="bg-white rounded-xl p-4 shadow-sm border border-gray-200">
           <div className="flex items-center justify-between mb-4">
             <div
               className={`${card.bgColor} w-10 h-10 rounded-lg flex items-center justify-center text-white font-bold`}
@@ -78,6 +78,6 @@ export default function MetricCards() {
           </div>
         </div>
       ))}
-    </>
+    </div> 
     )
 }

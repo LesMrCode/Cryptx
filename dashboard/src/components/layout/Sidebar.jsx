@@ -44,7 +44,7 @@ export default function Sidebar() {
                   : "text-gray-600 hover:text-gray-800 hover:bg-gray-100"
               }`}
             >
-              <Icon className="w-5 h-5 flex-shrink-0" />
+              {Icon ? <Icon className="w-5 h-5 flex-shrink-0" /> : null}
               <span className="text-sm">{item.label}</span>
             </button>
           );
